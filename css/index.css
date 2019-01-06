@@ -39,9 +39,3 @@ body {
 	border-bottom: 1px solid black;
 	padding-bottom: 80px;
 }
-
-#text span {
-	font-weight: bold;
-	font-style: italic;
-	font-size: 22px;
-}
