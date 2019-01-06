@@ -1,0 +1,38 @@
+body {
+	background-color: #FFF;
+
+}
+.container {
+	height: 100%;
+}
+#header {
+	border-bottom: 1px solid black;
+}
+.header {
+	font-style: italic;
+	text-align: center;
+
+}
+
+#cen {
+	margin-top: -15px;
+	text-align: center;
+}
+.menu {
+	letter-spacing: 10px;
+	margin-top: 50px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 80px;
+}
+
+#footer {
+	font-size: 12px;
+	font-style: italic;
+}
+
+#info {
+	margin-top: 50px;
+	margin-left: 0px;
+}
+
