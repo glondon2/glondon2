@@ -1,12 +1,10 @@
 body {
-	background-color: #FFF;
-
 }
 .container {
+	background-color: #FFF;
 	height: 100%;
 }
 #header {
-	border-bottom: 1px solid black;
 }
 .header {
 	font-style: italic;
@@ -20,13 +18,12 @@ body {
 }
 .menu {
 	letter-spacing: 10px;
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
-	border-bottom: 1px solid black;
-	padding-bottom: 80px;
 }
 
 #footer {
+	height: 100%;
 	font-size: 12px;
 	font-style: italic;
 }
@@ -34,5 +31,7 @@ body {
 #info {
 	margin-top: 30px;
 	margin-left: 0px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid black;
 }
 
