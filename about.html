@@ -79,7 +79,7 @@
 
     </div>
     
-    <form style="border-bottom: 1px solid black; margin-bottom: 0px;">
+    <form action="mailto:garrett.london2@gmail.com" method="post" enctype="text/plain" style="border-bottom: 1px solid black; margin-bottom: 0px;">
       <div class="row">
         <div class="six columns">
           <label for="emailInput">Your email</label>
@@ -95,7 +95,10 @@
       </div>
       <label for="message">Message</label>
       <textarea class="u-full-width" placeholder="Hi Jared, " id="message"></textarea>
-      <input class="button-primary" type="submit" value="Submit">
+      <div class="row" id="mid">
+        <input class="button-primary" type="submit" value="Send">
+        <input class="button-primary" type="reset" value="Redo">
+      </div>
       <p></p>
     </form>
 
