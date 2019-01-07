@@ -12,7 +12,9 @@
 	text-align: center;
 
 }
-
+form {
+	margin-top: 20px;
+}
 #cen {
 	margin-top: -15px;
 	text-align: center;
@@ -48,8 +50,6 @@
 #text3 {
 	margin-top: 40px;
 }
-
-
 
 @media (max-width: 550px) {
 	#text {
