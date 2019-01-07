@@ -3,6 +3,10 @@ body {
 #contact {
 	border-bottom: 1px solid black;
 }
+#work {
+	box-shadow: 0px 3px 3px -3px black;
+
+}
 .container {
 	background-color: #FFF;
 	height: 100%;
@@ -21,21 +25,45 @@ body {
 }
 .menu {
 	margin-bottom: 0px;
-	letter-spacing: 10px;
 	text-align: center;
 	box-shadow: 0px 4px 4px -4px gray;
 
 }
 
 #footer {
-	height: 100%;
+	width: 100%;
 	font-size: 12px;
 	font-style: italic;
 }
 
 #info {
-	margin-top: 30px;
-	margin-left: 0px;
-	border-bottom: 1px solid black;
-	padding-bottom: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
+.info2 {
+	border-bottom: 1px solid black;
+}
+
+
+@media (max-width: 400px) {
+	img {
+		margin-left: 33%;
+		max-width: 120px;
+
+	}
+
+}
+
+@media (max-width: 550px) {
+	img {
+		max-width: 120px;
+		margin-left: 33%;
+	}
+
+	.title {
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+
