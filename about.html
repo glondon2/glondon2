@@ -71,13 +71,33 @@
       <img src="images/wayne3.png" class="five columns" id="pic" style="padding-bottom: 20px;"/>
     </div>
 
-    <div class="row" id="info" style="border-bottom: 1px solid black;">
+    <div class="row" id="info">
       <div class="six columns" id="text2">
         <p>After been a consultant in a wide variety of industries with a passion and focus for <b>Music</b>. Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi <b>architecto</b> beatae vitae dicta sunt explicabo. Nemo enim ipsam <b>voluptatem</b> quia voluptas sit</p>
       </div>
       <img src="images/wayne2.png" class="five columns" id="pic" style="padding-bottom: 20px;"/>
 
     </div>
+    
+    <form style="border-bottom: 1px solid black; margin-bottom: 0px;">
+      <div class="row">
+        <div class="six columns">
+          <label for="emailInput">Your email</label>
+          <input class="u-full-width" type="email" placeholder="you@gmail.com" id="emailInput">
+        </div>
+        <div class="six columns">
+          <label for="recipientInput">Reason for contacting</label>
+          <select class="u-full-width" id="recipientInput">
+            <option value="Option 1">General Question</option>
+            <option value="Option 2">Business</option>
+          </select>
+        </div>
+      </div>
+      <label for="message">Message</label>
+      <textarea class="u-full-width" placeholder="Hi Jared, " id="message"></textarea>
+      <input class="button-primary" type="submit" value="Submit">
+      <p></p>
+    </form>
 
     <span id="footer">Designed by Garrett London</span>
 
