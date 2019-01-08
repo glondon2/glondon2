@@ -52,6 +52,7 @@
 	img {
 		max-width: 120px;
 		margin-left: 33%;
+		margin-bottom: 20px;
 	}
 
 	.title {
@@ -59,8 +60,9 @@
 		font-weight: bold;
 	}
 	.titlehide {
-	display: none;
+		display: none;
 	}
+
 
 }
 
